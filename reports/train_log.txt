@@ -1,0 +1,24 @@
+Loaded (1460, 81)
+After outlier removal: (1458, 81)
+Linear Regression  CV R2=0.8378 | test R2=0.8994 | 1.4s
+Ridge              CV R2=0.9156 | test R2=0.9187 | 5.4s
+Lasso              CV R2=0.9164 | test R2=0.9236 | 6.4s
+XGBoost            CV R2=0.9202 | test R2=0.9231 | 142.9s
+
+             model  cv_r2  test_r2  test_rmse_log  test_rmse_usd  test_mae_usd  seconds
+Linear Regression 0.8378   0.8994         0.1303        21484.0       15098.0      1.4
+            Ridge 0.9156   0.9187         0.1171        19568.0       13959.0      5.4
+            Lasso 0.9164   0.9236         0.1135        18967.0       13702.0      6.4
+          XGBoost 0.9202   0.9231         0.1138        18269.0       13516.0    142.9
+
+ {
+  "best_model": "XGBoost",
+  "test_r2": 0.9231,
+  "test_rmse_log": 0.1138,
+  "test_rmse_usd": 18269.0,
+  "test_mae_usd": 13516.0,
+  "linear_baseline_r2": 0.8994,
+  "r2_improvement_vs_linear_pct": 2.6,
+  "n_train": 1166,
+  "n_test": 292
+}

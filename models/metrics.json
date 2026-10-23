@@ -1,0 +1,11 @@
+{
+  "best_model": "XGBoost",
+  "test_r2": 0.9255,
+  "test_rmse_log": 0.1121,
+  "test_rmse_usd": 18513.0,
+  "test_mae_usd": 13336.0,
+  "linear_baseline_r2": 0.8994,
+  "r2_improvement_vs_linear_pct": 2.9,
+  "n_train": 1166,
+  "n_test": 292
+}

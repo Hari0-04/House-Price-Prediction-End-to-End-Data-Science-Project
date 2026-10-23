@@ -1,0 +1,5 @@
+model,cv_r2,test_r2,test_rmse_log,test_rmse_usd,test_mae_usd,best_params,seconds
+Linear Regression,0.8378,0.8994,0.1303,21484.0,15098.0,{},0.8
+Ridge,0.9156,0.9187,0.1171,19568.0,13959.0,{'alpha': 30},5.0
+Lasso,0.9164,0.9236,0.1135,18967.0,13702.0,{'alpha': 0.001},1.9
+XGBoost,0.9199,0.9255,0.1121,18513.0,13336.0,"{'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}",7.2
